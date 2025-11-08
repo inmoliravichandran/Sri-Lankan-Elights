@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sri Lankan Delights - Home</title>
+    <style>
+      /* General Body Styling */
+      html, body {
+        height: 100%;
+        margin: 0;
+        font-family: Arial, sans-serif;
+        display: flex;
+        flex-direction: column;
+      }
+
+      body {
+        background: url('order.jpg') no-repeat fixed;
+        background-size: cover;
+        backdrop-filter: blur(9px);
+        color: white;
+      }
+
+      /* Navbar Styling */
+      .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 20px;
+        background-color: rgb(150, 75, 0);
+      }
+
+      .navbar a {
+        text-decoration: none;
+        color: white;
+        margin: 0 15px;
+        font-size: 1.2rem;
+      }
+
+      .navbar a:hover {
+        text-decoration: underline;
+      }
+
+      /* Main Content Styling */
+      .container {
+        padding: 20px;
+        text-align: center;
+      }
+
+      .btn {
+        display: inline-block;
+        background-color: #ffc107;
+        color: black;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        font-size: 1rem;
+        text-decoration: none;
+        cursor: pointer;
+      }
+
+      .btn:hover {
+        background-color: #e0a800;
+      }
+
+      /* Card Styling */
+      .row {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        margin-top: 20px;
+      }
+
+      .card {
+        background-color: #f8f9fa;
+        border-radius: 10px;
+        overflow: hidden;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        text-align: center;
+        margin: 15px;
+        flex: 1 1 calc(33.333% - 30px); /* Makes the cards responsive */
+        max-width: calc(33.333% - 30px);
+      }
+
+      .card:hover{
+        transition: transform 0.3s;
+        transform: scale(1.15);
+        cursor: pointer;
+      }
+
+      .card img {
+        width: 100%;
+        height: auto;
+        display: block;
+      }
+
+      .card-body {
+        padding: 10px 15px;
+      }
+
+      .card-title {
+        font-size: 1.25rem;
+        margin: 10px 0;
+        color: black;
+      }
+
+      .card-text {
+        margin: 5px 0 15px;
+        color: black;
+      }
+
+      /* Footer Styling */
+      .footer {
+        background-color: rgb(100, 50, 0);
+        color: white;
+        text-align: center;
+        padding: 10px 0;
+        margin-top: auto;
+      }
+
+      .footer a {
+        color: #ffc107;
+        text-decoration: none;
+        margin: 0 5px;
+      }
+
+      .footer a:hover {
+        text-decoration: underline;
+      }
+    </style>
+</head>
+<body>
+  
+
+    <nav class="navbar">
+        <a class="navbar-brand" href="#" style="font-size: 2.5rem;">Sri Lankan Delights</a>
+        <div>
+            <a href="home.html">Home</a>
+            <a href="list.html">Menu</a>
+            <a href="contact.html">Contact</a>
+        </div>
+    </nav>
+
+    <div class="content">
+        <div class="container">
+            <h1 class="display-4">Welcome to Sri Lankan Delights</h1>
+            <a href="list.html" class="btn">Explore Our Menu</a>
+        </div>
+
+        <div class="container">
+            <h2 class="mb-4">Featured Dishes</h2>
+            <div class="row">
+                <div class="card">
+                    <img src="images/rice.jpg" alt="Rice and Curry">
+                    <div class="card-body">
+                        <h5 class="card-title">Rice and Curry</h5>
+                        <p class="card-text">A wholesome Sri Lankan meal with aromatic curries and perfectly cooked rice.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="images/kothu.jpg" alt="Kottu Roti">
+                    <div class="card-body">
+                        <h5 class="card-title">Kottu Roti</h5>
+                        <p class="card-text">A favorite street food dish made with chopped roti, veggies, and flavorful spices.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="images/wat.jpeg" alt="Wattalappam">
+                    <div class="card-body">
+                        <h5 class="card-title">Wattalappam</h5>
+                        <p class="card-text">A rich and creamy coconut custard dessert, flavored with jaggery and cardamom.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div>
+            <h5>Bijon & team proudly presents</h5>
+            <p>&copy; 2024 Sri Lankan Delights. All rights reserved.</p>
+            <small>Follow us on 
+                <a href="#">Facebook</a>, 
+                <a href="#">Instagram</a>, 
+                <a href="#">Twitter</a>
+            </small>
+        </div>
+    </footer>
+</body>
+</html>

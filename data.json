@@ -1,0 +1,35 @@
+[
+    {
+        "id": 1,
+        "name": "Rice and Curry",
+        "description": "Traditional Sri Lankan meal with spiced curries",
+        "price": "$10",
+        "category": "Main Course",
+        "availability": "Available"
+    },
+    {
+        "id": 2,
+        "name": "Kottu Roti",
+        "description": "Chopped roti stir-fried with vegetables and your choice of meat",
+        "price": "$8",
+        "category": "Main Course",
+        "availability": "Available"
+    },
+    {
+        "id": 3,
+        "name": "Wattalappam",
+        "description": "Rich coconut custard pudding made with jaggery and spices",
+        "price": "$5",
+        "category": "Dessert",
+        "availability": "Out of Stock"
+    },
+    {
+        "id": 4,
+        "name": "puttu",
+        "description": "Srilankan's tamil's national food",
+        "price": "250 rs",
+        "category": "main course",
+        "availability": "out of stock"
+    }
+  
+]
